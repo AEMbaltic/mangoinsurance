@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import QuoteCalculator from "@/components/QuoteCalculator";
 import TrustSection from "@/components/TrustSection";
+import AboutFortegra from "@/components/AboutFortegra";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <HeroSection />
       <QuoteCalculator />
       <TrustSection />
+      <AboutFortegra />
       <Footer />
     </div>
   );
