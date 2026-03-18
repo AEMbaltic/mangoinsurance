@@ -1,7 +1,14 @@
+import heroBg from "@/assets/hero-bg.jpg";
+
 const HeroSection = () => {
   return (
-    <section className="bg-hero pb-32 pt-20 text-hero-foreground">
-      <div className="container text-center">
+    <section className="relative bg-hero pb-32 pt-20 text-hero-foreground">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      <div className="absolute inset-0 bg-hero/70" />
+      <div className="container relative text-center">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
           Total Protection for Your Vehicle
         </h1>
