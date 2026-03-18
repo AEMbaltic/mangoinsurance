@@ -12,6 +12,7 @@ const Index = () => {
       <HeroSection />
       <QuoteCalculator />
       <TrustSection />
+      <AboutFortegra />
       <Footer />
     </div>
   );
